@@ -9,4 +9,16 @@ function sumAndDo(numbers,callback){
 function Do(num){
 	return num*2;
 }
+const mainMenu={
+	init:()=>{
+		mainMenu.register();
+	},	
+	register:()=>{
+		mainMenu.loadData();
+	},
+	loadData:()=>{
+
+	}
+}
+mainMenu.init();
 sumAndDo([1,2,3],Do);
