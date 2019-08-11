@@ -1,4 +1,6 @@
 function Greeting(name){
 	this.name=name;
 }
-console.log("say something...");
+function Eat(bone){
+	console.log("Dog eating bone...");
+}
