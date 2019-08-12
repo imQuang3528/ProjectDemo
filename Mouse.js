@@ -3,5 +3,5 @@ function Mouse(name){
 	console.log("Hello"+this.name);
 }
 function Eat(cheese){
-	
+	console.log("hihihihihi");
 }
