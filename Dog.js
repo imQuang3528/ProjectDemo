@@ -1,11 +1,8 @@
-function Greeting(name){
+var chalk=require("chalk");
+function Dog(name){
 	this.name=name;
 }
-function Eat(bone){
-	console.log("Dog eating bone...");
-}
-const mainController={
-	init:function(){
-		
-	}
-}
+Dog.prototype.sayHi = function() {
+	console.log("hello.my dog is "+ chalk.blue(this.name))
+};
+module.exports=Dog;
