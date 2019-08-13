@@ -1,4 +1,4 @@
-var Dog=require("./Dog.js")
+var Dog=require('./Dog')
 
-var menu=new Dog("Menu");
-menu.sayHi();
+const Milu=new Dog('Milu');
+Milu.Greeting();
