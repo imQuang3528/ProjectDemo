@@ -1,4 +1,4 @@
 var Dog=require('./Dog')
 
-const Milu=new Dog('Milu');
-Milu.Greeting();
+let Milu=new Dog('Milu');
+console.log(Milu);
